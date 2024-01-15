@@ -17,7 +17,7 @@ class History extends StatelessWidget {
           builder: (context, provider, child) {
             if (provider.history == null) {
               return Column(children: [
-                SizedBox(height: 50,),
+                SizedBox(height: 200,),
                 Center(
                   child: CircularProgressIndicator(),
                 ),
